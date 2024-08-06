@@ -34,10 +34,7 @@ export class AuthController {
 
   @Get('profile')
   @UseGuards(AuthGuard)
-  profile(
-    @Request()
-    req,
-  ) {
+  profile(@Request() req) {
     return req.user;
   }
 }

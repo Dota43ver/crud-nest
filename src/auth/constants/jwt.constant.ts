@@ -1,1 +1,1 @@
-export const jwtConstants = { secret: 'no usar en producción' };
+export const jwtConstants = { secret: 'no usar en producción  asdas  asd' };
