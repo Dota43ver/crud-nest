@@ -16,7 +16,7 @@ import { AuthModule } from './auth/auth.module';
       database: 'crud_nest',
       autoLoadEntities: true,
       synchronize: true,
-      logging: true,
+      logging: false,
     }),
     CatsModule,
     BreedsModule,
